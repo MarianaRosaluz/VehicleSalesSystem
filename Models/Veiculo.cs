@@ -25,7 +25,6 @@ namespace VehicleSalesSystem.Models
 
         [Required]
         public string Status { get; set; } // Disponível, Vendido
-
         // Relacionamento com Venda
         public Venda Venda { get; set; }
     }
